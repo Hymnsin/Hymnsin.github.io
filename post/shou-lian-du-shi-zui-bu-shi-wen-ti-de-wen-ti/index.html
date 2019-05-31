@@ -1,58 +1,132 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>熟练度是最不是问题的问题 | 向之所欣 心之所向</title>
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330008333">
+<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;🚧施工中🚧&lt;/p&gt;
+&lt;br&gt;
+
+
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330520281">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Hymnsin.github.io">
-  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330008333" alt="">
-  </a>
-  <h1 class="site-title">
-    向之所欣 心之所向
-  </h1>
-  <p class="site-description">
-    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Hymnsin.github.io">
+        <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330520281" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Hymnsin.github.io">
+        <h1 class="site-title">向之所欣 心之所向</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/archives" class="menu purple-link">
+            全部文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            系列精选
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
+            站内搜索
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">熟练度是最不是问题的问题</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-25</span>
+            
+          </div>
+          <div class="post-content">
+            <p>最近利用墙外的自由互联网环境尝试了一圈 真·匿名上网，然后发现有很多坑绕不过去，有些苦恼。</p>
+<p>除了速度以及身份验证等匿名上网必然会导致的问题之外，Linux 系统的使用也是一大障碍。过去的人生当中，都没有认真使用过 Linux 系统，因此非常不熟悉。Terminal 命令行只会按照教程一个字一个字敲进去，完全不会自己按需调配；甚至连 GUI 都不会用，面对被隐藏的文件夹、没有 write 权限的文件，都只能临时上网搜索解决方案；至于 network 设置、proxy 设置、什么情况下要用 sudo，可能在熟练者眼中非常基础的内容，我也半懂不懂——如此种种，不禁产生畏难心理，觉得自己恐怕是连个 Linux 系统都用不好了。</p>
+<p>然而，事情可能没那么糟糕。我可能只是不熟悉而已。</p>
+<p>回想上手 macOS 之前，我不也是在 Apple Store 里试用演示机的时候，连如何最小化窗口、如何打开 Dock 栏以外的程序都不知道操作吗？至于如何在 Terminal 当中敲代码，我当时是想都不敢想——然而经过 macOS 的日常使用，渐渐接触多了以后，这些本来看起来很遥远的东西，早就在潜移默化当中学会了。</p>
+<p>所以说：熟练度是最不是问题的问题。只需要时间以及投入，总能化不熟练为熟练。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://Hymnsin.github.io/post/wu-fa-kang-ju-bu-ru-gui-qu">
+              <h3 class="post-title">
+                下一篇：无法抗拒，不如归去
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan"><p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
 <br>
 <p>🚧施工中🚧</p>
 <br>
 
 
-
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          系列精选
-        </a>
-      
-    
-      
-        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-          站内搜索
-        </a>
-      
-    
-  </div>
+</div>
   <div class="social-container">
     
       
@@ -66,80 +140,49 @@
       
     
   </div>
-</div>
-
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              熟练度是最不是问题的问题
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-25 ·
-              </time>
-              
-            </div>
-            
-            <div class="post-content">
-              <p>最近利用墙外的自由互联网环境尝试了一圈 真·匿名上网，然后发现有很多坑绕不过去，有些苦恼。</p>
-<p>除了速度以及身份验证等匿名上网必然会导致的问题之外，Linux 系统的使用也是一大障碍。过去的人生当中，都没有认真使用过 Linux 系统，因此非常不熟悉。Terminal 命令行只会按照教程一个字一个字敲进去，完全不会自己按需调配；甚至连 GUI 都不会用，面对被隐藏的文件夹、没有 write 权限的文件，都只能临时上网搜索解决方案；至于 network 设置、proxy 设置、什么情况下要用 sudo，可能在熟练者眼中非常基础的内容，我也半懂不懂——如此种种，不禁产生畏难心理，觉得自己恐怕是连个 Linux 系统都用不好了。</p>
-<p>然而，事情可能没那么糟糕。我可能只是不熟悉而已。</p>
-<p>回想上手 macOS 之前，我不也是在 Apple Store 里试用演示机的时候，连如何最小化窗口、如何打开 Dock 栏以外的程序都不知道操作吗？至于如何在 Terminal 当中敲代码，我当时是想都不敢想——然而经过 macOS 的日常使用，渐渐接触多了以后，这些本来看起来很遥远的东西，早就在潜移默化当中学会了。</p>
-<p>所以说：熟练度是最不是问题的问题。只需要时间以及投入，总能化不熟练为熟练。</p>
-
-            </div>
-          </article>
-        </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Hymnsin.github.io/post/wu-fa-kang-ju-bu-ru-gui-qu">
-              <h3 class="post-title">
-                无法抗拒，不如归去
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'fac1a3bdd6d020c325aa',
-    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-    repo: 'hymnsin.github.io',
-    owner: 'Hymnsin',
-    admin: ['Hymnsin'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-    
-        <div class="site-footer">
   Cogito, ergo sum
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'fac1a3bdd6d020c325aa',
+        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+        repo: 'hymnsin.github.io',
+        owner: 'Hymnsin',
+        admin: ['Hymnsin'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

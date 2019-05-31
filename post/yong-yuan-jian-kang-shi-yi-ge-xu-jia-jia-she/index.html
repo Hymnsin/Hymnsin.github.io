@@ -1,58 +1,130 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>永远健康是一个虚假假设 | 向之所欣 心之所向</title>
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330008333">
+<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;🚧施工中🚧&lt;/p&gt;
+&lt;br&gt;
+
+
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330520281">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Hymnsin.github.io">
-  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330008333" alt="">
-  </a>
-  <h1 class="site-title">
-    向之所欣 心之所向
-  </h1>
-  <p class="site-description">
-    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Hymnsin.github.io">
+        <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330520281" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Hymnsin.github.io">
+        <h1 class="site-title">向之所欣 心之所向</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/archives" class="menu purple-link">
+            全部文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            系列精选
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
+            站内搜索
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">永远健康是一个虚假假设</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-16</span>
+            
+          </div>
+          <div class="post-content">
+            <p>最近在行为管理上，有了很大的突破，甚至能基本用一个“状态判断.py”的程序来判断当前状态，并给出最好的应对方式了。在已经被考量进去的因素当中，甚至预想到了某些非理性情况的出现（由低到高包含：思维内存溢出、Sys2不够用、「老子就是罢工」等等），已经是非常贴近真实的了。但是，身体状况我没有加入考量，这可能在未来使得现有的行为管理方法出现漏洞。</p>
+<p>可以预期的是：只要时间足够长，那么因为季节、过敏、情绪或其他未知因素，我必然再次陷入唇炎的健康问题困扰。彼时，痛苦不能思考、进食困难、不愿见人、足不出户的情形又将再次出现，长达几天到几周。而在那几天到几周当中的应对方式，除了消极休息等待康复，我是没有其他办法的。</p>
+<p>永远健康很明显是一个虚拟假设。所以，不能高枕无忧。下一次再次陷入唇炎或其他健康问题的时候，才是摸着石头过河、找出行为管理终极解决方案的最终挑战。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://Hymnsin.github.io/post/shui-guo-de-zhu-yao-zuo-yong-shi-hao-chi">
+              <h3 class="post-title">
+                下一篇：水果的主要作用是好吃
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan"><p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
 <br>
 <p>🚧施工中🚧</p>
 <br>
 
 
-
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          系列精选
-        </a>
-      
-    
-      
-        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-          站内搜索
-        </a>
-      
-    
-  </div>
+</div>
   <div class="social-container">
     
       
@@ -66,78 +138,49 @@
       
     
   </div>
-</div>
-
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              永远健康是一个虚假假设
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-16 ·
-              </time>
-              
-            </div>
-            
-            <div class="post-content">
-              <p>最近在行为管理上，有了很大的突破，甚至能基本用一个“状态判断.py”的程序来判断当前状态，并给出最好的应对方式了。在已经被考量进去的因素当中，甚至预想到了某些非理性情况的出现（由低到高包含：思维内存溢出、Sys2不够用、「老子就是罢工」等等），已经是非常贴近真实的了。但是，身体状况我没有加入考量，这可能在未来使得现有的行为管理方法出现漏洞。</p>
-<p>可以预期的是：只要时间足够长，那么因为季节、过敏、情绪或其他未知因素，我必然再次陷入唇炎的健康问题困扰。彼时，痛苦不能思考、进食困难、不愿见人、足不出户的情形又将再次出现，长达几天到几周。而在那几天到几周当中的应对方式，除了消极休息等待康复，我是没有其他办法的。</p>
-<p>永远健康很明显是一个虚拟假设。所以，不能高枕无忧。下一次再次陷入唇炎或其他健康问题的时候，才是摸着石头过河、找出行为管理终极解决方案的最终挑战。</p>
-
-            </div>
-          </article>
-        </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Hymnsin.github.io/post/shui-guo-de-zhu-yao-zuo-yong-shi-hao-chi">
-              <h3 class="post-title">
-                水果的主要作用是好吃
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'fac1a3bdd6d020c325aa',
-    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-    repo: 'hymnsin.github.io',
-    owner: 'Hymnsin',
-    admin: ['Hymnsin'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-    
-        <div class="site-footer">
   Cogito, ergo sum
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'fac1a3bdd6d020c325aa',
+        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+        repo: 'hymnsin.github.io',
+        owner: 'Hymnsin',
+        admin: ['Hymnsin'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

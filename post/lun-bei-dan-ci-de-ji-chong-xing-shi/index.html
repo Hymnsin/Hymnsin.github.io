@@ -1,58 +1,137 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>论背单词的几种形式 | 向之所欣 心之所向</title>
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330008333">
+<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;🚧施工中🚧&lt;/p&gt;
+&lt;br&gt;
+
+
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330520281">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Hymnsin.github.io">
-  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330008333" alt="">
-  </a>
-  <h1 class="site-title">
-    向之所欣 心之所向
-  </h1>
-  <p class="site-description">
-    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Hymnsin.github.io">
+        <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330520281" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Hymnsin.github.io">
+        <h1 class="site-title">向之所欣 心之所向</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/archives" class="menu purple-link">
+            全部文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            系列精选
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
+            站内搜索
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">论背单词的几种形式</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-04-29</span>
+            
+          </div>
+          <div class="post-content">
+            <p>常见的背单词的形式有以下几种：</p>
+<p>一、选择题。这样的好处在于启动门槛最低，并且能快速突击大批量的词汇，但是最终的学习效果可能仅仅只是“做得出选择题而已”，既不算完全认识，也不能掌握使用。</p>
+<p>二、自行选择认识与否。这样做的好处在于对自己【诚实】，保证经过多轮复习后，可以完全认识某个词。但是坏处则在于见效慢、时程长，一个词要轮替好几轮，刚认识就忘了，忘了再背，学习效率低下。另一个坏处在于：如果加入列表的速度快于移除列表的速度，最终会迎来词库爆炸。</p>
+<p>三、传统抄写和造句。这样做的好处在于学习效果牢靠，并且不仅仅是认识，还能学会使用。如果发现特殊的用法或者近义词/形近词，还能及时拓展。并且，对于少量需要尽速掌握的词而言，这种方法能起到快速突击的效果。坏处则在于，一次性能学习的词数量很少，而且很费时间，还需要纸笔的支持。</p>
+<p>因此，这三种方法应该分别适用于不同的场景各自使用。</p>
+<p>例如：</p>
+<p>【一】欧路词典内置的大批量导入词汇，选择题模式，快速熟悉。Binge leading！</p>
+<p>【二】AA阅读内的阅读生词本，反复自行选择认识与否。这个行为可以用来填充空闲碎片时间。</p>
+<p>【三】传统抄写一些关键性的星号词语。</p>
+<p>同理适用于其他需要背诵的卡片式内容（like Anki）</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://Hymnsin.github.io/post/zai-xian-bo-ke-xu-yao-man-zu-na-xie-yao-qiu">
+              <h3 class="post-title">
+                下一篇：在线博客需要满足哪些要求
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan"><p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
 <br>
 <p>🚧施工中🚧</p>
 <br>
 
 
-
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          系列精选
-        </a>
-      
-    
-      
-        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-          站内搜索
-        </a>
-      
-    
-  </div>
+</div>
   <div class="social-container">
     
       
@@ -66,85 +145,49 @@
       
     
   </div>
-</div>
-
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              论背单词的几种形式
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-04-29 ·
-              </time>
-              
-            </div>
-            
-            <div class="post-content">
-              <p>常见的背单词的形式有以下几种：</p>
-<p>一、选择题。这样的好处在于启动门槛最低，并且能快速突击大批量的词汇，但是最终的学习效果可能仅仅只是“做得出选择题而已”，既不算完全认识，也不能掌握使用。</p>
-<p>二、自行选择认识与否。这样做的好处在于对自己【诚实】，保证经过多轮复习后，可以完全认识某个词。但是坏处则在于见效慢、时程长，一个词要轮替好几轮，刚认识就忘了，忘了再背，学习效率低下。另一个坏处在于：如果加入列表的速度快于移除列表的速度，最终会迎来词库爆炸。</p>
-<p>三、传统抄写和造句。这样做的好处在于学习效果牢靠，并且不仅仅是认识，还能学会使用。如果发现特殊的用法或者近义词/形近词，还能及时拓展。并且，对于少量需要尽速掌握的词而言，这种方法能起到快速突击的效果。坏处则在于，一次性能学习的词数量很少，而且很费时间，还需要纸笔的支持。</p>
-<p>因此，这三种方法应该分别适用于不同的场景各自使用。</p>
-<p>例如：</p>
-<p>【一】欧路词典内置的大批量导入词汇，选择题模式，快速熟悉。Binge leading！</p>
-<p>【二】AA阅读内的阅读生词本，反复自行选择认识与否。这个行为可以用来填充空闲碎片时间。</p>
-<p>【三】传统抄写一些关键性的星号词语。</p>
-<p>同理适用于其他需要背诵的卡片式内容（like Anki）</p>
-
-            </div>
-          </article>
-        </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Hymnsin.github.io/post/zai-xian-bo-ke-xu-yao-man-zu-na-xie-yao-qiu">
-              <h3 class="post-title">
-                在线博客需要满足哪些要求
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'fac1a3bdd6d020c325aa',
-    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-    repo: 'hymnsin.github.io',
-    owner: 'Hymnsin',
-    admin: ['Hymnsin'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-    
-        <div class="site-footer">
   Cogito, ergo sum
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'fac1a3bdd6d020c325aa',
+        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+        repo: 'hymnsin.github.io',
+        owner: 'Hymnsin',
+        admin: ['Hymnsin'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

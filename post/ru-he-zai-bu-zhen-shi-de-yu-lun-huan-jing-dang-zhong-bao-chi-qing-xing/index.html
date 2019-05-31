@@ -1,58 +1,132 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>如何在不真实的舆论环境当中保持清醒？ | 向之所欣 心之所向</title>
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330008333">
+<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;🚧施工中🚧&lt;/p&gt;
+&lt;br&gt;
+
+
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330520281">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Hymnsin.github.io">
-  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330008333" alt="">
-  </a>
-  <h1 class="site-title">
-    向之所欣 心之所向
-  </h1>
-  <p class="site-description">
-    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Hymnsin.github.io">
+        <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330520281" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Hymnsin.github.io">
+        <h1 class="site-title">向之所欣 心之所向</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/archives" class="menu purple-link">
+            全部文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            系列精选
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
+            站内搜索
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">如何在不真实的舆论环境当中保持清醒？</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-19</span>
+            
+          </div>
+          <div class="post-content">
+            <p>我后知后觉的发现，在2019年的中文世界，我找不到一个真实的舆论环境。</p>
+<p>一早醒来，看到<a href="https://36kr.com/p/5206247">谷歌禁止华为使用其安卓系统部分功能</a>的新闻。这究竟是怎么一回事？这种商业行为存在任何法律或者道德疑虑吗（「正义」在何方）？此事件对于中美两国的贸易冲突有何等程度的冲击？对于我们个人而已，是否会有收益或损害？站在国家利益的角度，真实的利益分析又应当是怎样的？</p>
+<p>对于这一问题，如果试图通过互联网来获取答案，结果可能非常令人失望。墙内的评论区看不到支持谷歌的声音，如果有，那么应该已经被删除了；墙外的评论区看不到支持华为的声音，如果有，那么很快就有人来扣「五毛党」的帽子。</p>
+<p>墙内的审查，删除言论、封禁账号，使得不符合「统一步调」的声音几乎被消灭干净，敢怒者不敢言，只剩下自发或不自发的支持声音；墙外的中文圈，则逆向筛选了有翻墙能力的一小部分人，其中不乏抱持着去国怀乡的难民心情的人，普遍不信任亲政府言论，动辄给人扣上「五毛」的帽子。于是乎，我们找不到一个既能听到两面声音，又能保持理性讨论的场所。</p>
+<p>然而，唯有认清事实以及主流民意，才能保持清醒，做出理智的判断。而我们生活在一个看不到真实舆论环境的年代当中，没有主流民意作为参考，自己一个不小心，就可能陷入极端的意识形态当中却不自知。在时代的洪流当中，我们难道真的只能是无法控制自身走向的一叶扁舟吗？</p>
+ <p align="center">陶令不知何处去，桃花源里可耕田？</p>
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://Hymnsin.github.io/post/qiang-wai-liu-wang-zhong-wen-lun-tan-xian-kuang-2019-nian-wu-yue">
+              <h3 class="post-title">
+                下一篇：墙外流亡中文论坛现况（2019年五月）
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan"><p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
 <br>
 <p>🚧施工中🚧</p>
 <br>
 
 
-
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          系列精选
-        </a>
-      
-    
-      
-        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-          站内搜索
-        </a>
-      
-    
-  </div>
+</div>
   <div class="social-container">
     
       
@@ -66,80 +140,49 @@
       
     
   </div>
-</div>
-
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              如何在不真实的舆论环境当中保持清醒？
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-19 ·
-              </time>
-              
-            </div>
-            
-            <div class="post-content">
-              <p>我后知后觉的发现，在2019年的中文世界，我找不到一个真实的舆论环境。</p>
-<p>一早醒来，看到<a href="https://36kr.com/p/5206247">谷歌禁止华为使用其安卓系统部分功能</a>的新闻。这究竟是怎么一回事？这种商业行为存在任何法律或者道德疑虑吗（「正义」在何方）？此事件对于中美两国的贸易冲突有何等程度的冲击？对于我们个人而已，是否会有收益或损害？站在国家利益的角度，真实的利益分析又应当是怎样的？</p>
-<p>对于这一问题，如果试图通过互联网来获取答案，结果可能非常令人失望。墙内的评论区看不到支持谷歌的声音，如果有，那么应该已经被删除了；墙外的评论区看不到支持华为的声音，如果有，那么很快就有人来扣「五毛党」的帽子。</p>
-<p>墙内的审查，删除言论、封禁账号，使得不符合「统一步调」的声音几乎被消灭干净，敢怒者不敢言，只剩下自发或不自发的支持声音；墙外的中文圈，则逆向筛选了有翻墙能力的一小部分人，其中不乏抱持着去国怀乡的难民心情的人，普遍不信任亲政府言论，动辄给人扣上「五毛」的帽子。于是乎，我们找不到一个既能听到两面声音，又能保持理性讨论的场所。</p>
-<p>然而，唯有认清事实以及主流民意，才能保持清醒，做出理智的判断。而我们生活在一个看不到真实舆论环境的年代当中，没有主流民意作为参考，自己一个不小心，就可能陷入极端的意识形态当中却不自知。在时代的洪流当中，我们难道真的只能是无法控制自身走向的一叶扁舟吗？</p>
- <p align="center">陶令不知何处去，桃花源里可耕田？</p>
-            </div>
-          </article>
-        </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Hymnsin.github.io/post/qiang-wai-liu-wang-zhong-wen-lun-tan-xian-kuang-2019-nian-wu-yue">
-              <h3 class="post-title">
-                墙外流亡中文论坛现况（2019年五月）
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'fac1a3bdd6d020c325aa',
-    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-    repo: 'hymnsin.github.io',
-    owner: 'Hymnsin',
-    admin: ['Hymnsin'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-    
-        <div class="site-footer">
   Cogito, ergo sum
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'fac1a3bdd6d020c325aa',
+        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+        repo: 'hymnsin.github.io',
+        owner: 'Hymnsin',
+        admin: ['Hymnsin'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

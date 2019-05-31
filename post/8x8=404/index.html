@@ -1,88 +1,97 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>8×8=404 不可触碰的未解之谜 | 向之所欣 心之所向</title>
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330008333">
+<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;🚧施工中🚧&lt;/p&gt;
+&lt;br&gt;
+
+
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330520281">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Hymnsin.github.io">
-  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330008333" alt="">
-  </a>
-  <h1 class="site-title">
-    向之所欣 心之所向
-  </h1>
-  <p class="site-description">
-    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
-<br>
-<p>🚧施工中🚧</p>
-<br>
-
-
-
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          系列精选
-        </a>
-      
-    
-      
-        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-          站内搜索
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Hymnsin.github.io">
+        <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330520281" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Hymnsin.github.io">
+        <h1 class="site-title">向之所欣 心之所向</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
+        
+          <a href="/archives" class="menu purple-link">
+            全部文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            系列精选
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
+            站内搜索
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              8×8=404 不可触碰的未解之谜
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-01 ·
-              </time>
-              
-            </div>
+          
+          <h2 class="post-title">8×8=404 不可触碰的未解之谜</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-05-01</span>
             
-            <div class="post-content">
-              <p>北京现在是2019年5月2日清晨。下个月的这个时候，想必可以看到数量庞大的关于「六四事件」三十周年的纪念文章。然而同样可想而知的还有两件事情：第一，这些文章在中国将遭到精准封杀，<strong>普通中国人几乎看不到这些文章</strong>，因此不能指望其对中国社会真的产生什么影响力；第二，这些文章多将是由海外或港台的专业新闻机构发布，加上一些流亡海外的公众人物的发言，<strong>而几乎听不到普通中国人的声音</strong>。</p>
+          </div>
+          <div class="post-content">
+            <p>北京现在是2019年5月2日清晨。下个月的这个时候，想必可以看到数量庞大的关于「六四事件」三十周年的纪念文章。然而同样可想而知的还有两件事情：第一，这些文章在中国将遭到精准封杀，<strong>普通中国人几乎看不到这些文章</strong>，因此不能指望其对中国社会真的产生什么影响力；第二，这些文章多将是由海外或港台的专业新闻机构发布，加上一些流亡海外的公众人物的发言，<strong>而几乎听不到普通中国人的声音</strong>。</p>
 <p>而我，正好是一个普通的中国人。如果这篇文章你恰好也被屏幕前的一个普通中国人看到，那么，真算是幸运至极。</p>
 <p>由于并不关心政治，也没有任何专业素养，我其实本没有写这篇文章的动机。「六四事件」于我，只能算是一个「未解之谜」——当年究竟发生了什么，有没有发生暴力，是谁指使的，死了多少人，有没有外国势力的渗透——在过去三十年之后，这些问题仍然笼罩在一片迷雾当中。当然，会有人不服气的说，赤裸裸的历史不容否认，怎么就成了「未解之谜」了呢？当年就是在北京天安门，解放军血腥镇压抗议的学生和群众，是邓小平等党和国家高层指使的，血流成河死了成千上万人，完全是自发的爱国运动，却被栽赃抹黑为外国势力渗透的颠覆活动。但是，也有人会拍着胸脯告诉你，那不过就是一桩暴力抗议事件，失去理智的群众打死了几名无辜的解放军战士，还不知道自己是暗中受了境外反动势力的操控，最终事情过去很多年，境外反动势力还依旧拿这件小事来做文章，给堂堂大中国穿小鞋。</p>
 <p>不知为何，<strong>自打我还是个幼儿园小朋友第一次听说到这些说法时，我就对上述两派的说法均无法完全相信</strong>。无论任何一方的说话，听上去都太极端了一些，不是吗？真相或许处于上述两种表述的某个中间位置——我凭着直觉作出并不敢拍胸脯的判断。当然，没准两种说法当中有一种还真的就是历史真相。但是在历史真相得到还原之前，年幼的我还是宁可先选择保持怀疑态度。后来我念了大学，上了维基百科——那个时候，中文维基百科还可以访问——从头到尾看了一遍「六四事件」这个词条，最终停留在「争议」那一小节无法释怀：各方各执一词，实在不知道哪一方说的才是历史事实。</p>
@@ -142,58 +151,92 @@
 <hr>
 <p>管窥之见，恳请包容！</p>
 
-            </div>
-          </article>
+          </div>
         </div>
-    
+
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Hymnsin.github.io/post/python-3-li-mian-de-zhong-wen-zhi-chi-wen-ti">
+            <a class="purple-link" href="https://Hymnsin.github.io/post/python-3-li-mian-de-zhong-wen-zhi-chi-wen-ti">
               <h3 class="post-title">
-                Python 3 里面的中文支持问题
+                下一篇：Python 3 里面的中文支持问题
               </h3>
             </a>
-          </div>  
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      
 
-<div id="gitalk-container"></div>
+      <div class="site-footer">
+  <div class="slogan"><p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+<br>
+<p>🚧施工中🚧</p>
+<br>
 
-<script>
 
-  var gitalk = new Gitalk({
-    clientID: 'fac1a3bdd6d020c325aa',
-    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-    repo: 'hymnsin.github.io',
-    owner: 'Hymnsin',
-    admin: ['Hymnsin'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
+</div>
+  <div class="social-container">
     
-        <div class="site-footer">
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
   Cogito, ergo sum
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'fac1a3bdd6d020c325aa',
+        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+        repo: 'hymnsin.github.io',
+        owner: 'Hymnsin',
+        admin: ['Hymnsin'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
