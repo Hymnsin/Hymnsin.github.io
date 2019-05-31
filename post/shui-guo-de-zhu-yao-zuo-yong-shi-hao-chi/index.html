@@ -1,85 +1,110 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>水果的主要作用是好吃 | 向之所欣 心之所向</title>
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559329748369">
+<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;🚧施工中🚧&lt;/p&gt;
+&lt;br&gt;
+
+
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559329899210">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Hymnsin.github.io">
-  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559329748369" alt="">
-  </a>
-  <h1 class="site-title">
-    向之所欣 心之所向
-  </h1>
-  <p class="site-description">
-    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Hymnsin.github.io">
+        <img src="https://Hymnsin.github.io/images/avatar.png?v=1559329899210" class="site-logo">
+        <h1 class="site-title">向之所欣 心之所向</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/archives" class="site-nav">
+            全部文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            系列精选
+          </a>
+        
+      
+        
+          <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="site-nav" target="_blank">
+            站内搜索
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
 <br>
 <p>🚧施工中🚧</p>
 <br>
 
 
 
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          系列精选
-        </a>
-      
-    
-      
-        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-          站内搜索
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    </div>
+    <div class="site-footer">
+      Cogito, ergo sum
+    </div>
   </div>
 </div>
 
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              水果的主要作用是好吃
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-05-16 ·
-              </time>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">水果的主要作用是好吃</h2>
+            <div class="post-date">2019-05-16</div>
             
             <div class="post-content">
               <p>水果的主要作用是好吃，次要作用是补充各种维生素。但是现在物质比较丰富了，维生素来源非常丰富。所以水果的作用只剩下好吃。因此，凡是以好吃以外属性作为卖点的高价水果，都是在明目张胆的骗钱。包括但不限于：天然、野生、进口、xx之王、富含xx、滋补xx、强x健x等</p>
@@ -105,57 +130,74 @@
 <p>膳食纤维摄入的不足，传统上是通过蔬菜和水果补充的。在蔬菜烹饪不方便的大前提下，（廉价）水果依旧有其存在的意义。但是不同水果的纤维素含量差异很大，加之一次购买不便长期储存，因此每日实际摄入量往往是不均衡的。另一条思路是补充粗谷物，例如主食用粗谷物代替——看上去是更稳定更靠谱甚至更经济的一条补充纤维素的思路。</p>
 
             </div>
-          </article>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Hymnsin.github.io/post/lun-xin-xi-de-yong-jiu-bao-cun">
+                  <h3 class="post-title">
+                    论信息的永久保存
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Hymnsin.github.io/post/lun-xin-xi-de-yong-jiu-bao-cun">
-              <h3 class="post-title">
-                论信息的永久保存
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'fac1a3bdd6d020c325aa',
-    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-    repo: 'hymnsin.github.io',
-    owner: 'Hymnsin',
-    admin: ['Hymnsin'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-    
-        <div class="site-footer">
-  Cogito, ergo sum
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'fac1a3bdd6d020c325aa',
+        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+        repo: 'hymnsin.github.io',
+        owner: 'Hymnsin',
+        admin: ['Hymnsin'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
