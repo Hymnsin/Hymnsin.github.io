@@ -1,132 +1,58 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>《自控力》extractions | 向之所欣 心之所向</title>
-<meta name="description" content="&lt;p&gt;&lt;b&gt;A&lt;/b&gt; &lt;b&gt;Hymn&lt;/b&gt;sin&#39;s &lt;b&gt;Bl&lt;/b&gt;og&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;🚧施工中🚧&lt;/p&gt;
-&lt;br&gt;
-
-
-">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330674237">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Hymnsin.github.io/favicon.ico?v=1559330582676">
 <link rel="stylesheet" href="https://Hymnsin.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://Hymnsin.github.io">
-        <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330582676" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://Hymnsin.github.io">
-        <h1 class="site-title">向之所欣 心之所向</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/archives" class="menu purple-link">
-            全部文章
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            系列精选
-          </a>
-        
-      
-        
-          <a class="menu purple-link" href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
-            站内搜索
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">《自控力》extractions</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-05-25</span>
-            
-          </div>
-          <div class="post-content">
-            <p>如果做了好事（done），那么应该认为这是分内的事情，不需要额外的奖励，而是应该感到舒心<strong>踏实</strong>。</p>
-<p>如果做了坏事(done)，那么不要纠结内疚，应该原地原谅自己，不要<strong>因事废人</strong>。</p>
-<p>如果想要做坏事（want to do），给自己一分钟，及时深入想一想做这件事的<strong>意义</strong>，可能可以唤起理性，悬崖勒马。</p>
-<p>如果即将做坏事（going to do），那么既然已经决定了，就好好享受！</p>
-<p>如果即将逃避好事（going to do），那么应该将其列上列表，做到<strong>心中有数</strong>，事后可以回头弥补。</p>
-
-          </div>
-        </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://Hymnsin.github.io/post/shou-lian-du-shi-zui-bu-shi-wen-ti-de-wen-ti">
-              <h3 class="post-title">
-                下一篇：熟练度是最不是问题的问题
-              </h3>
-            </a>
-          </div>
-          
-      </div>
-
-      
-        
-          <div id="gitalk-container"></div>
-        
-
-        
-      
-
-      <div class="site-footer">
-  <div class="slogan"><p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Hymnsin.github.io">
+  <img class="avatar" src="https://Hymnsin.github.io/images/avatar.png?v=1559330674237" alt="">
+  </a>
+  <h1 class="site-title">
+    向之所欣 心之所向
+  </h1>
+  <p class="site-description">
+    <p><b>A</b> <b>Hymn</b>sin's <b>Bl</b>og</p>
 <br>
 <p>🚧施工中🚧</p>
 <br>
 
 
-</div>
+
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/archives" class="menu">
+          全部文章
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          系列精选
+        </a>
+      
+    
+      
+        <a href="https://cse.google.com/cse?cx=013781001638655426063:b73xlfrwyrw" class="menu" target="_blank">
+          站内搜索
+        </a>
+      
+    
+  </div>
   <div class="social-container">
     
       
@@ -140,49 +66,80 @@
       
     
   </div>
-  Cogito, ergo sum
 </div>
 
+      
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              《自控力》extractions
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-05-25 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>如果做了好事（done），那么应该认为这是分内的事情，不需要额外的奖励，而是应该感到舒心<strong>踏实</strong>。</p>
+<p>如果做了坏事(done)，那么不要纠结内疚，应该原地原谅自己，不要<strong>因事废人</strong>。</p>
+<p>如果想要做坏事（want to do），给自己一分钟，及时深入想一想做这件事的<strong>意义</strong>，可能可以唤起理性，悬崖勒马。</p>
+<p>如果即将做坏事（going to do），那么既然已经决定了，就好好享受！</p>
+<p>如果即将逃避好事（going to do），那么应该将其列上列表，做到<strong>心中有数</strong>，事后可以回头弥补。</p>
 
-    </div>
-    <script type="application/javascript">
+            </div>
+          </article>
+        </div>
+    
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Hymnsin.github.io/post/shou-lian-du-shi-zui-bu-shi-wen-ti-de-wen-ti">
+              <h3 class="post-title">
+                熟练度是最不是问题的问题
+              </h3>
+            </a>
+          </div>  
+        
 
-hljs.initHighlightingOnLoad()
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'fac1a3bdd6d020c325aa',
+    clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
+    repo: 'hymnsin.github.io',
+    owner: 'Hymnsin',
+    admin: ['Hymnsin'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
 
 </script>
 
+          
 
-  
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+          
+        
+    
+        <div class="site-footer">
+  Cogito, ergo sum
+</div>
 
-      var gitalk = new Gitalk({
-        clientID: 'fac1a3bdd6d020c325aa',
-        clientSecret: 'd0726cea4106c55ab9b300c580367617b1d3c7ec',
-        repo: 'hymnsin.github.io',
-        owner: 'Hymnsin',
-        admin: ['Hymnsin'],
-        id: location.pathname,      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
 
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
+      </div>
+    </div>
   </body>
 </html>
