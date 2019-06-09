@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Hymnsin.github.io</id>
     <title>向之所欣 心之所向</title>
-    <updated>2019-06-09T13:18:20.833Z</updated>
+    <updated>2019-06-09T21:10:45.226Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Hymnsin.github.io"/>
     <link rel="self" href="https://Hymnsin.github.io/atom.xml"/>
@@ -41,6 +41,19 @@
 <br /></p>
 <p>2019年04月20日 星期六</p>
 <p>于美国纽约</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我当前在价值观上的五大问题]]></title>
+        <id>https://Hymnsin.github.io/post/wo-dang-qian-zai-jie-zhi-guan-shang-de-wu-da-wen-ti</id>
+        <link href="https://Hymnsin.github.io/post/wo-dang-qian-zai-jie-zhi-guan-shang-de-wu-da-wen-ti">
+        </link>
+        <updated>2019-06-09T09:09:35.000Z</updated>
+        <content type="html"><![CDATA[<p>对政府的不信任</p>
+<p>对知识和技术的绝望</p>
+<p>对人性恶的揣测</p>
+<p>认为纯文学无法赚钱</p>
+<p>认为性冲动无法抗止</p>
 ]]></content>
     </entry>
     <entry>
@@ -471,19 +484,6 @@ PFA &gt;16 PA++++
 <p>然而，等柯文哲从一介平民变成了市长，真正有能力面对大巨蛋之后，却过了五六年时间，也没能动大巨蛋一根毫毛。这样下去，十年之内能不能拆掉大巨蛋这个烂尾工程，都还是个谜题。</p>
 <p>拆个大巨蛋尚且如此困难，更何况中国的政治改革呢？树（Taipei）犹如此，人（China）何以堪？自由派的理论说辞，虽然道理上都是通的，但是实际落实，其时间线将会是超乎想象的久远的，所以，还是洗洗睡吧，下辈子再来关心政治——这辈子来不及了。</p>
 <p>2019年5月26日</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《自控力》extractions]]></title>
-        <id>https://Hymnsin.github.io/post/lesslesszi-kong-li-greatergreater-extractions</id>
-        <link href="https://Hymnsin.github.io/post/lesslesszi-kong-li-greatergreater-extractions">
-        </link>
-        <updated>2019-05-25T22:25:24.000Z</updated>
-        <content type="html"><![CDATA[<p>如果做了好事（done），那么应该认为这是分内的事情，不需要额外的奖励，而是应该感到舒心<strong>踏实</strong>。</p>
-<p>如果做了坏事(done)，那么不要纠结内疚，应该原地原谅自己，不要<strong>因事废人</strong>。</p>
-<p>如果想要做坏事（want to do），给自己一分钟，及时深入想一想做这件事的<strong>意义</strong>，可能可以唤起理性，悬崖勒马。</p>
-<p>如果即将做坏事（going to do），那么既然已经决定了，就好好享受！</p>
-<p>如果即将逃避好事（going to do），那么应该将其列上列表，做到<strong>心中有数</strong>，事后可以回头弥补。</p>
 ]]></content>
     </entry>
 </feed>
