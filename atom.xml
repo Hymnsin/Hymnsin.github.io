@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Hymnsin.github.io</id>
     <title>向之所欣 心之所向</title>
-    <updated>2019-06-06T01:17:10.827Z</updated>
+    <updated>2019-06-09T13:17:20.714Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Hymnsin.github.io"/>
     <link rel="self" href="https://Hymnsin.github.io/atom.xml"/>
@@ -41,6 +41,19 @@
 <br /></p>
 <p>2019年04月20日 星期六</p>
 <p>于美国纽约</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[房间里最大的大象：死亡——《Being Mortal》 读书笔记（《自序》）]]></title>
+        <id>https://Hymnsin.github.io/post/fang-jian-li-zui-da-de-da-xiang-si-wang-lesslessbeing-mortalgreatergreater-du-shu-bi-ji-lesslesszi-xu-greatergreater</id>
+        <link href="https://Hymnsin.github.io/post/fang-jian-li-zui-da-de-da-xiang-si-wang-lesslessbeing-mortalgreatergreater-du-shu-bi-ji-lesslesszi-xu-greatergreater">
+        </link>
+        <updated>2019-06-09T01:17:01.000Z</updated>
+        <content type="html"><![CDATA[<p>19世纪有个俄国作家写了一本小说《伊万·伊里奇之死》，其中最为诡谲的一点在于：人人都接受了一个谎言，仿佛认为伊万并不是要死了，而仅仅只是「病」了而已。物换星移，到了21世纪，医学已经进步许多，但是医生们在面对绝症病人时，仍然并不直接面对病人即将面对不可避免的死亡这个事实，而是仅仅局限在自己的工作范围内，为「病人」提供力所能及的「治疗」——即使这些干预手段并不能妙手回春。</p>
+<p>人一生当中最确定的事情，即是自己的死亡。当身患绝症时，这种确定性就更显得迫在眉睫。然而，相反的在于，当一个人自己远离衰老和绝症时，就会「不知老之将至」，将死亡这件如此笃定的事情当作房间里的大象一样无视。</p>
+<p>作为副作用的结果，就是：在医学愈发进步的新时代，越来越多的人在人生的最后阶段不是自然地接受生老病死，而是在一群各司其职的医疗人员的共同 push 之下，走到了人生本不该经历的【炼狱】当中——开刀、插管、呼吸机——在无限痛苦当中撑到生命的最后。即使是理智的人，在左手面对死亡的威胁，右手面对现代医学的救命稻草时，也无法舍弃自己的求生欲望，而想要尝试一搏——然而最终的结果，却几乎是全灭。</p>
+<p>对于临床医学来说，救治失败并不代表着无能，而是生命进程当中普通的一环。</p>
+<p>——至于基础医学和生命科学的探究，却不能止步于此。（We should）保持清醒，继续前行。</p>
 ]]></content>
     </entry>
     <entry>
@@ -471,19 +484,6 @@ PFA &gt;16 PA++++
 <p>如果想要做坏事（want to do），给自己一分钟，及时深入想一想做这件事的<strong>意义</strong>，可能可以唤起理性，悬崖勒马。</p>
 <p>如果即将做坏事（going to do），那么既然已经决定了，就好好享受！</p>
 <p>如果即将逃避好事（going to do），那么应该将其列上列表，做到<strong>心中有数</strong>，事后可以回头弥补。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[熟练度是最不是问题的问题]]></title>
-        <id>https://Hymnsin.github.io/post/shou-lian-du-shi-zui-bu-shi-wen-ti-de-wen-ti</id>
-        <link href="https://Hymnsin.github.io/post/shou-lian-du-shi-zui-bu-shi-wen-ti-de-wen-ti">
-        </link>
-        <updated>2019-05-25T07:18:42.000Z</updated>
-        <content type="html"><![CDATA[<p>最近利用墙外的自由互联网环境尝试了一圈 真·匿名上网，然后发现有很多坑绕不过去，有些苦恼。</p>
-<p>除了速度以及身份验证等匿名上网必然会导致的问题之外，Linux 系统的使用也是一大障碍。过去的人生当中，都没有认真使用过 Linux 系统，因此非常不熟悉。Terminal 命令行只会按照教程一个字一个字敲进去，完全不会自己按需调配；甚至连 GUI 都不会用，面对被隐藏的文件夹、没有 write 权限的文件，都只能临时上网搜索解决方案；至于 network 设置、proxy 设置、什么情况下要用 sudo，可能在熟练者眼中非常基础的内容，我也半懂不懂——如此种种，不禁产生畏难心理，觉得自己恐怕是连个 Linux 系统都用不好了。</p>
-<p>然而，事情可能没那么糟糕。我可能只是不熟悉而已。</p>
-<p>回想上手 macOS 之前，我不也是在 Apple Store 里试用演示机的时候，连如何最小化窗口、如何打开 Dock 栏以外的程序都不知道操作吗？至于如何在 Terminal 当中敲代码，我当时是想都不敢想——然而经过 macOS 的日常使用，渐渐接触多了以后，这些本来看起来很遥远的东西，早就在潜移默化当中学会了。</p>
-<p>所以说：熟练度是最不是问题的问题。只需要时间以及投入，总能化不熟练为熟练。</p>
 ]]></content>
     </entry>
 </feed>
