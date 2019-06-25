@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Hymnsin.github.io</id>
     <title>向之所欣 心之所向</title>
-    <updated>2019-06-19T21:52:16.735Z</updated>
+    <updated>2019-06-25T02:16:20.783Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Hymnsin.github.io"/>
     <link rel="self" href="https://Hymnsin.github.io/atom.xml"/>
@@ -41,6 +41,17 @@
 <br /></p>
 <p>2019年04月20日 星期六</p>
 <p>于美国纽约</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一丝怨念：真的没办法匿踪使用 Google 服务吗？]]></title>
+        <id>https://Hymnsin.github.io/post/yi-si-yuan-nian-zhen-de-mei-ban-fa-ni-zong-shi-yong-google-fu-wu-ma</id>
+        <link href="https://Hymnsin.github.io/post/yi-si-yuan-nian-zhen-de-mei-ban-fa-ni-zong-shi-yong-google-fu-wu-ma">
+        </link>
+        <updated>2019-06-24T14:16:08.000Z</updated>
+        <content type="html"><![CDATA[<p>正常情况下，注册 Google 账户是可以跳过 optional 的手机号验证环节的。然而，对于使用 proxy 上网的情形，则强制需要验证手机号——笔者尝试了 商用VPN、自建 Shadowsocks 和 Tor 等多种途径，均无法在不提供手机号的情况下完成新账号的注册。</p>
+<p>固然，如果想要无手机号注册 Google 账号，还是有办法的。可以在 Google 不被屏蔽的任何一个国家正常上网（不使用 Proxy）注册新 Google 账号，无需提供手机号；也有「歪门邪道」通过 Android 设备注册无手机号绑定的 Google 账号等。然而，即使获取了一个无手机号绑定的 Google 账号，仍然面临两个严峻的问题：第一，你的真实 IP 等隐私信息是暴露在 Google 面前的；第二，你无法预测未来何时会突然被要求验证手机号——例如，您如果前往中国大陆探亲，需要使用 proxy 翻墙才能上 Google，然而一旦您使用 proxy，就会被要求验证手机号。</p>
+<p>因此，似乎并不存在一种可以逆踪使用 Google 服务的方法。此处所指的 Google 服务包括且不限于 Google 搜索、Gmail 邮箱、Youtube 视频上传、Google 第三方登陆等所有需要 Google 账号的服务。类似情形或许也适用于其他西方互联网基础设施服务。</p>
 ]]></content>
     </entry>
     <entry>
@@ -181,21 +192,6 @@
 <p>作为副作用的结果，就是：在医学愈发进步的新时代，越来越多的人在人生的最后阶段不是自然地接受生老病死，而是在一群各司其职的医疗人员的共同 push 之下，走到了人生本不该经历的【炼狱】当中——开刀、插管、呼吸机——在无限痛苦当中撑到生命的最后。即使是理智的人，在左手面对死亡的威胁，右手面对现代医学的救命稻草时，也无法舍弃自己的求生欲望，而想要尝试一搏——然而最终的结果，却几乎是全灭。</p>
 <p>对于临床医学来说，救治失败并不代表着无能，而是生命进程当中普通的一环。</p>
 <p>——至于基础医学和生命科学的探究，却不能止步于此。（We should）保持清醒，继续前行。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关掉信息水龙头：一种价值观]]></title>
-        <id>https://Hymnsin.github.io/post/guan-diao-xin-xi-shui-long-tou-yi-chong-jie-zhi-guan</id>
-        <link href="https://Hymnsin.github.io/post/guan-diao-xin-xi-shui-long-tou-yi-chong-jie-zhi-guan">
-        </link>
-        <updated>2019-06-05T01:16:43.000Z</updated>
-        <content type="html"><![CDATA[<p>最近经历了两件截然相反的事情，使得我对于墙内墙外两派的中文信息来源（包括但不局限于新闻、社群、论坛、视频平台等）同时断开了价值上的认同。<strong>意识形态对立已经高过内容事实本身，那么如果果真如此，为了避免自己的思想受到污染，就应该关闭所有的（中文）信息水龙头，避世隐居。</strong></p>
-<p>第一件事情，是中美主播关于贸易战的辩论（刘欣 &amp; Trish Regan）。我在第一时间听完了两人十六分钟的交谈，并且很明显感受到：如果仅仅就言辞辩论这一点而言的话（而不论事实本身），中方的刘欣应该是有理的、辩胜的一方。事实上，即使是在美国的英语社交媒体上，较多的声音也承认刘欣辩胜，吐槽 Trish 犯了低级错误之类的。然而诡谲的现象是：墙外中文信息水龙头，竟然仍然死硬称刘欣大败之类的……这不仅仅局限于墙外新闻媒体，在社群和论坛当中亦是如此——被仇恨冲昏头的人们，已经罔顾事实，像他们所仇恨的人一样，心安理得地做起了指鹿为马的事情。如此一来，我实在觉得墙外的中文信息水龙头背后的价值观是如何扭曲，实在不敢苟同。</p>
-<p>第二件事情，是六四事件三十周年前后，墙内信息水龙头近乎疯狂的自我阉割。经过长达几个月时间的陆续整顿，严阵以待，凡是有点儿风吹草动，就杀之以绝后患。像我这样「谨言慎行」的人，在墙内的账号都扑街好几个——其中最搞笑的一个被封理由，是在六四当天发《国际歌》歌词——人们到底在怕什么！如此下来，墙内剩下的可以见诸屏幕的声音，几乎可以说，全都是默许恶政的存在，积极配合自我阉割，乃至于成为帮凶的人的声音——像极了日本侵华时期恭迎皇军的汉奸嘴脸。哪怕是与政治完全不沾边的兴趣小站，也无一幸免。这个时代的墙内，无文革之名，有文革之实。</p>
-<p>一道高墙两侧，是意识形态对立的两波仇人。试问：任何一方的信息水龙头，里面能不带着毒药吗？如果理性判断的话，兴趣都可以抛开，<strong>视频我可以不看，新闻我可以不管，社交媒体上的声音我可以不听</strong>——关掉信息水龙头，用自己的真心，保持冷静，保持清醒的姿态。</p>
-<p>附录：这两起事件中新增的令人失望的信息水龙头：</p>
-<p>墙外：一众 Twitter 机构账号、一众流亡论坛、一众电报群和频道、端传媒（没错，曾经引以为傲的独立中立媒体）</p>
-<p>墙内：一众科技媒体、一众小型论坛、知乎以及B站（从自由乐园到粉红大本营）</p>
 ]]></content>
     </entry>
 </feed>
