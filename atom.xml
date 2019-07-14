@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Hymnsin.github.io</id>
     <title>向之所欣 心之所向</title>
-    <updated>2019-07-04T03:28:28.872Z</updated>
+    <updated>2019-07-14T19:35:55.134Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Hymnsin.github.io"/>
     <link rel="self" href="https://Hymnsin.github.io/atom.xml"/>
@@ -41,6 +41,19 @@
 <br /></p>
 <p>2019年04月20日 星期六</p>
 <p>于美国纽约</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我现在觉得，手机使用的原则应该是这样]]></title>
+        <id>https://Hymnsin.github.io/post/wo-xian-zai-jue-de-shou-ji-shi-yong-de-yuan-ze-ying-gai-shi-zhe-yang</id>
+        <link href="https://Hymnsin.github.io/post/wo-xian-zai-jue-de-shou-ji-shi-yong-de-yuan-ze-ying-gai-shi-zhe-yang">
+        </link>
+        <updated>2019-07-14T07:34:15.000Z</updated>
+        <content type="html"><![CDATA[<p>在家：封存智能手机（待机@灵位）</p>
+<p>短出：完全不带手机</p>
+<p>长出：全功能智能手机</p>
+<hr>
+<p>根据理论推算，这是最佳方案。放任使用、转用功能机、转用低配手机、iPad+功能机等方案统统不靠谱。</p>
 ]]></content>
     </entry>
     <entry>
@@ -150,20 +163,6 @@
         <content type="html"><![CDATA[<p>正常情况下，注册 Google 账户是可以跳过 optional 的手机号验证环节的。然而，对于使用 proxy 上网的情形，则强制需要验证手机号——笔者尝试了 商用VPN、自建 Shadowsocks 和 Tor 等多种途径，均无法在不提供手机号的情况下完成新账号的注册。</p>
 <p>固然，如果想要无手机号注册 Google 账号，还是有办法的。可以在 Google 不被屏蔽的任何一个国家正常上网（不使用 Proxy）注册新 Google 账号，无需提供手机号；也有「歪门邪道」通过 Android 设备注册无手机号绑定的 Google 账号等。然而，即使获取了一个无手机号绑定的 Google 账号，仍然面临两个严峻的问题：第一，你的真实 IP 等隐私信息是暴露在 Google 面前的；第二，你无法预测未来何时会突然被要求验证手机号——例如，您如果前往中国大陆探亲，需要使用 proxy 翻墙才能上 Google，然而一旦您使用 proxy，就会被要求验证手机号。</p>
 <p>因此，似乎并不存在一种可以逆踪使用 Google 服务的方法。此处所指的 Google 服务包括且不限于 Google 搜索、Gmail 邮箱、Youtube 视频上传、Google 第三方登陆等所有需要 Google 账号的服务。类似情形或许也适用于其他西方互联网基础设施服务。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[舆论本身就有害]]></title>
-        <id>https://Hymnsin.github.io/post/yu-lun-ben-shen-jiu-you-hai</id>
-        <link href="https://Hymnsin.github.io/post/yu-lun-ben-shen-jiu-you-hai">
-        </link>
-        <updated>2019-06-24T14:04:28.000Z</updated>
-        <content type="html"><![CDATA[<p>（This article is just a blog post.）</p>
-<p>最近几年，经历中国的舆论环境收紧，言论自由被钳制，直觉上本来是觉得很不舒服的。</p>
-<p>但是，认真反思一下，除了围绕钳制言论自由而做的一系列努力之外，<strong>中国政府当前的举措还有什么系统性的值得诟病的地方吗</strong>？仔细回想，可能还真不存在，有也仅仅是一些 sporadic 的个例，而不构成必然的系统性问题。境外的媒体和社交媒体倒是可以拿这些例子来「搞个大新闻」，热烈讨论一番，温度降下以后，却留不下什么痕迹。</p>
-<p>我试图在深夜的星空下从零开始思考：是否存在一种可能性，群体的<strong>言论自由本身就不是必然合理的前提假设</strong>，而舆论这件事本身、乃至于基于民意的民主制度本身就是<strong>建立在不合理前提假设上的空中楼阁</strong>。群体无法作出明智的决断，反而偏向于情绪化地 slightly 地夸大事实。群体乃乌合之众（<em>The Crowd: A Study of the Popular Mind</em>），群体智商有限、盲目自信、情绪化，对于其主张的内容 take it granted。这并不是因为群体当中的个体必然容易被煽动、被操纵，而是由于略微夸张的观点本身更具吸引力（例如标题党的文章、仇恨性的政治宣传），虽然与客观事实不符，但是反而更能一呼百应、风动一时。然而，随着时间的推移，这种注了水的、略微夸张的主张总会有原形毕露的一天，届时流行趋势消退，政治神话破灭，只剩人走茶凉。然后、然后，再来一轮新的流行，再造一个新的神话……这似乎和市场经济下的周期性经济危机有着异曲同工之妙。<strong>如果果真如此，那么言论自由似乎反而正是信任危机的来源，而中国政府敢于义正严辞地钳制言论自由，反而恰恰是一种忍辱负重的力挽狂澜，在全人类范围内为专制制度保留希望的火种。对于个人而言，身处零真实舆论的环境反而能避免自己被流行民意所影响和裹挟，保全个人的清醒理智判断，并且减少多余的思考和烦恼。我渴望言论自由的心，或许只是八卦之心的另一种表现形式。</strong></p>
-<p>如此一来，绝大部分中国政府被诟病的地方就能被合理化了。当全世界都沉浸在放纵的自由当中时，留九百六十万平方公里 free-from-free 的净土，我要为此点个赞。</p>
-<p>（This article might be a self-brainwashing process, but meanwhile also being a pragmatic philosophy for the modern Chinese citizen.）</p>
 ]]></content>
     </entry>
 </feed>
